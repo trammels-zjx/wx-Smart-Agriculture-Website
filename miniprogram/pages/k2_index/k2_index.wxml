@@ -1,0 +1,25 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="true">
+  <block wx:for="{{goods_list[0].img}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="350"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='list'>
+  <view class='name'>标题：  {{goods_list[0].name}}</view>
+  <view class='content'>内容简介：  {{goods_list[0].content}}</view>
+</view>
+
+<van-goods-action>
+ 
+  <van-goods-action-button
+    text="返回首页"
+    type="warning"
+    bind:click="to_index"
+  />
+  <van-goods-action-button
+    text="立即获取"
+    bind:click="onClickButton"
+  />
+</van-goods-action>

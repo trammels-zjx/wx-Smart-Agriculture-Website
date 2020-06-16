@@ -1,0 +1,25 @@
+.bottom {
+    border-radius: 80rpx;
+    margin: 70rpx 50rpx;
+    font-size: 35rpx;
+}
+.slide-image{
+  width: 100%;
+}
+
+
+
+.nav_right .nav_right_items{  
+  float: left;          /* 浮动向左 */  
+  width: 25%;        /* 每个item设置宽度是33.33% */  
+  height: 250rpx;        /* 每个item设置高度是120px */ 
+  text-align: center;
+}  
+
+/* 4.3. 右侧栏中的每个item的图样式设置 */  
+.nav_right .nav_right_items image{  
+  width: 60px;         /* 给图片设置宽度 */  
+  height: 60px;        /* 给图片设置高度 */  
+  margin-top: 15px;    /* 图片距离上边距15px */  
+  border-radius: 40%;  /* 给图片添加圆角边框 */
+}  

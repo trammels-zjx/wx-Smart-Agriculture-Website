@@ -1,0 +1,33 @@
+<view class='list-item' wx:for="{{listItems}}">
+      <view class='list-item-images'>
+        <image src='{{item.img[0]}}' class='list-item-images-textImage'></image>
+        <image src='{{item.avatarUrl}}' class='list-item-images-userImage'></image>
+      </view>
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>{{item.goods_name}}</text>
+        </view>
+
+        
+      </view>
+
+
+      <van-button round type="danger" size="mini" class='del' bindtap='del' id='{{index}}'>
+        删除
+      </van-button>
+
+      <!-- <view class='del'>
+        <button
+          type="default"
+          size="mini"
+          plain="true"
+          bindtap="del"
+          hover-class="other-button-hover"
+          id='{{index}}'
+
+        >
+          删除
+        </button> -->
+      <!-- </view> -->
+
+</view>

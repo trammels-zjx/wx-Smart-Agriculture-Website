@@ -1,0 +1,33 @@
+<van-tabs active="{{ active }}">
+ <van-tab title="待发货">
+  <view class='item' wx:for="{{array_0}}">
+   <image class='img' src='{{array_0[index].goods_message.img}}'></image>
+   <view class='name'>{{array_0[index].goods_message.name}}</view>
+   <view class='detail'>VIP编号：{{array_0[index].vip_num}}</view>
+   <view class='detail'>订单编号：{{array_0[index].order_num}}</view>
+   <view class='detail'>订单时间：{{array_0[index].time}}</view>
+   <view class='price'>￥{{array_0[index].money}}</view>
+   <!-- <view class='number'>X{{array_0[index].number[index]}}</view> -->
+    </view>
+  </van-tab>
+
+<van-tab title="待收货">
+    <view class='item' wx:for="{{array_1}}">
+   <image class='img'></image>
+   <view class='name'>{{array_1[index].goods_message.name}}</view>
+   <view class='detail'>{{array_1[index].goods_message.describe}}</view>
+   <view class='price'>￥{{array_1[index].goods_message.price}}</view>
+   <view class='number'>X{{array_1[index].goods_message.number}}</view>
+</view>
+  </van-tab> 
+
+  <van-tab title="已完成">
+   <view class='item' wx:for="{{array_2}}">
+   <image class='img'></image>
+   <view class='name'>{{array_2[index].goods_message.name}}</view>
+   <view class='detail'>{{array_2[index].goods_message.describe}}</view>
+   <view class='price'>￥{{array_2[index].goods_message.price}}</view>
+   <view class='number'>X{{array_2[index].goods_message.number}}</view>
+    </view>
+  </van-tab>
+</van-tabs>

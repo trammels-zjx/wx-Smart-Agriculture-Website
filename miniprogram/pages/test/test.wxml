@@ -1,0 +1,24 @@
+
+
+<view class='card' wx:for='{{shopping_cart}}'>
+<!-- flag==0表示未选，1 -->
+    <image class='choose' bindtap='pay_add' data-item='{{index}}' wx:if='{{flag[index]==0}}' src='/images/my_cart_0.png' ></image>
+    <image class='choose' bindtap='pay_add' data-item='{{index}}' wx:if='{{flag[index]==1}}' src='/images/my_cart_1.png'></image>
+    <image class='image' src='{{shopping_cart[index].img}}'></image>
+    <view class='right'>
+        <view class='name'>{{shopping_cart[index].name}}</view>
+        <view class='price' bindtap='money' data-item='{{index}}'>￥:{{shopping_cart[index].price}}</view>
+        <view>
+        <van-stepper  class='step' value="{{number[index]}}" data-index='{{index}}' bind:change="onChange" />
+        </view>
+    </view>
+</view>
+
+<view class='space'></view>
+<view class='pay'>
+    <image class='choose1'  src='/images/my_cart_0.png' ></image>
+    <view class='all'>全选</view>
+    <view class='all_pay'>合计:￥{{ all_pay}}</view>
+    <view class='submit' bindtap='submit'>结算</view>
+</view>   
+

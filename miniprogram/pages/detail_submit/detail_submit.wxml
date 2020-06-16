@@ -1,0 +1,21 @@
+<view class='item' wx:for="{{list}}">
+   <image class='img' src='{{list[index].img}}'></image>
+   <view class='name'>{{list[index].name}}</view>
+   <!-- <view class='detail'>{{list[index].describe}}</view> -->
+   <view class='price'>￥{{list[index].price}}</view>
+   <view class='number'>X{{number[index]}}</view>
+</view>
+
+<van-cell title="vip编号" value="{{vip_num}}"  size="large" />
+<van-cell title="购物车编号" value="{{cart_num}}"  size="large" />
+<van-cell title="订单编号" value="{{order_num}}"  size="large" />
+<van-cell title="订单时间" value="{{time}}"  size="large" />
+
+
+
+<van-submit-bar
+  price="{{pay_all}}"
+  button-text="提交订单"
+  bind:submit="onSubmit"
+/>
+<van-dialog id="van-dialog" />

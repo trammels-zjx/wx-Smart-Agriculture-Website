@@ -1,0 +1,26 @@
+<swiper indicator-dots="true" autoplay="true" duration="800" circular='true' class='swiper_item'>
+ <block wx:for="{{goods_list[0].img}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<van-cell title="名称" value="{{goods_list[0].goods_name}}"  size="large"/>
+<van-cell title="商品编号" value="{{goods_list[0].num}}"  size="large" />
+<van-cell title="价格" value="{{goods_list[0].goods_money}}"  size="large" />
+
+
+
+<van-cell title="商品详情" size="large" label="{{goods_list[0].content}}" />
+
+
+
+
+
+<van-goods-action>
+  <van-goods-action-icon icon="cart-o" text="购物车" info="5" bind:click="toshop" />
+  <van-goods-action-icon icon="shop-o" text="首页" bind:click="toindex" />
+  <van-goods-action-button text="加入购物车" type="warning" bind:click="onClickButton" />
+  <van-goods-action-button text="立即购买" />
+</van-goods-action>

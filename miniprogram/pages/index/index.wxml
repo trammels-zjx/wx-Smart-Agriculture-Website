@@ -1,0 +1,75 @@
+<!-- <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button> -->
+
+
+
+<swiper
+  indicator-dots="true"
+  autoplay="true"
+  interval="5000"
+  duration="500"
+>
+  <block class:slideshow wx:for="{{slideshow}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+  bindtap='To_search'
+/>
+
+<van-tabs type="card">
+  <van-tab title="全部农产品">
+    <view wx:for='{{goods_list}}' wx:key='item' id='{{index}}' bindtap='To_item'>
+
+      <van-card
+        price="{{item.goods_money}}"
+        desc="{{item.content}}"
+        title="{{item.goods_name}}"
+        thumb="{{item.img[0]}}"
+      />
+
+
+    </view>
+  </van-tab>
+
+
+
+
+
+  <!-- <van-tab title="分类农产品">
+    <view class="nav_right">
+
+      <view class="nav_right_items">
+        <image src="fruits.jpg"></image>
+        <view>水果</view>
+      </view>
+
+      <view class="nav_right_items" bindtap='gotoliuyan'>
+        <image src="vegetables.jpg"></image>
+        <view>蔬菜</view>
+      </view>
+
+      <view class="nav_right_items">
+        <image src="flower.jpg"></image>
+        <view>花卉</view>
+      </view>
+
+      <view class="nav_right_items">
+        <image src="fowl.jpg"></image>
+        <view>家禽</view>
+      </view>
+    </view>
+  
+
+  </van-tab> -->
+</van-tabs>

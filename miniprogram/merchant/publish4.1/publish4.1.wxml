@@ -1,0 +1,31 @@
+<form bindsubmit="formSubmit" bindreset="formReset"> 
+<van-cell-group>
+  <van-field
+    name='name'
+    required
+    clearable
+    label="专业基地名称"
+    placeholder="请输入专业基地名称"
+  />
+
+  
+</van-cell-group>
+
+<textarea name='content' placeholder="请输入专业基地简介"></textarea>
+
+<view>添加图片更有说服力呦！</view>
+    <view class="gallery">
+      <view class="item" wx:for="{{imgPath}}" wx:key="">
+        <image src="{{item}}" data-src="{{item}}" bindtap="previewImage" mode="aspectFill" />
+        
+        <!-- 删除按钮 -->
+        <view class="delete" bindtap="delete" data-index="{{index}}">X</view>
+    </view>
+    <view class="item" bindtap="img_item">
+        <view class='addIcon'>+</view>
+    </view>
+</view>  
+      
+  <button class='btn' formType="submit">发布</button>  
+       
+</form> 

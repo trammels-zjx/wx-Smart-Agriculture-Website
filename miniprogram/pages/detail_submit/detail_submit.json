@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-card": "../../lib/card/index",
+    "van-submit-bar": "../../lib/submit-bar/index",
+    "van-dialog": "../../lib/dialog/index",
+    "van-cell": "../../lib/cell/index",
+    "van-cell-group": "../../lib/cell-group/index"
+  }
+}

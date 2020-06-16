@@ -1,0 +1,18 @@
+.title{
+  height:100rpx;
+  width:100%;
+  text-align: center;
+  line-height:100rpx;
+  font-size:13pt;
+  }
+.btn{
+  background-color: red;
+}
+.address{
+  z-index: 9999;
+  position: fixed;
+  height:80rpx;
+  width:80rpx;
+  top:320rpx;
+  right:35rpx;
+}

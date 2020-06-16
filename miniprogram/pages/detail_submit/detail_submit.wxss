@@ -1,0 +1,58 @@
+.item{
+  position: relative;
+  margin:10rpx 0 30rpx 0;
+  height:250rpx;
+  width:100%;
+  font-size:12px;
+  color:#333;
+  background-color:rgb(248, 247, 247);
+  }
+  .img{
+    position: absolute;
+   height:200rpx;
+   width:200rpx;
+   top:25rpx;
+   left:65rpx;
+   border-radius: 20rpx;
+   /* background-color: palevioletred; */
+  }
+  .name{
+     position:relative;
+     top:35rpx;
+     left:280rpx;
+     font-size: 11pt;
+     height:60rpx;
+     line-height: 60rpx;
+     width:50%;
+     /* background-color: saddlebrown; */
+  }
+  .detail{
+     position:relative;
+     top:20rpx;
+     padding-top: 10rpx;
+     left:280rpx;
+     font-size: 8pt;
+     height:90rpx;
+      line-height: 40rpx;
+     color:#ccc;
+     width:50%;
+     /* background-color: saddlebrown; */
+  }
+  .price{
+     position:relative;
+     left:280rpx;
+     font-size: 10pt;
+     height:70rpx;
+     line-height: 70rpx;
+     width:50%;
+     color:red;
+     /* background-color: saddlebrown; */
+  }
+  .number{
+     position:relative;
+     top:-50rpx;
+     font-size:9pt;
+     height:70rpx;
+     width:18%;
+     left:81%;
+  }

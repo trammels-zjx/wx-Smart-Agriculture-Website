@@ -1,0 +1,21 @@
+<van-search
+  value="{{ value }}"
+  placeholder="请输入搜索关键词"
+  show-action
+  bind:search="onSearch"
+  bind:cancel="onCancel"
+/>
+
+
+
+    <view wx:for='{{goods_list}}' wx:key='item' id='{{index}}' bindtap='To_item'>
+
+      <van-card
+        price="{{item.goods_money}}"
+        desc="{{item.content}}"
+        title="{{item.goods_name}}"
+        thumb="{{item.img[0]}}"
+      />
+
+
+    </view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-stepper": "../../lib/stepper/index",
+    "van-button": "../../lib/button/index"
+  }
+}

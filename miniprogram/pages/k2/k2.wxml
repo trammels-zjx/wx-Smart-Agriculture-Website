@@ -1,0 +1,9 @@
+<view wx:for='{{goods_list}}' wx:key='item' id='{{index}}' bindtap='to'>
+  <van-card
+    desc="{{item.content}}"
+    title="{{item.name}}"
+    thumb="{{item.img[0]}}"
+  />
+
+
+</view>

@@ -1,0 +1,71 @@
+.mine_top{
+ height: 350rpx;
+ /* background-color: rgb(199, 193, 160); */
+}
+.userinfo-avatar {
+  position:absolute;
+  float:left;
+  left: 50rpx;
+  top:65rpx;
+  height: 180rpx;
+  width:180rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+.userNickName{
+  position: absolute;
+  left:250rpx;
+  top:100rpx;
+  font-size: 13pt;
+}
+.Vip_flag{
+  position: absolute;
+  height: 35rpx;
+  width:35rpx;
+  left:40%;
+  top:155rpx;
+}
+.sign{
+  position: absolute;
+  font-size: 10pt;
+  height:60rpx;
+  width:60%;
+  top:200rpx;
+  left:35%;
+  /* background-color: black; */
+}
+.list{
+  position:relative;
+  height:100rpx;
+  width:100%;
+  /* background-color: gainsboro; */
+}
+.Image{
+    position:absolute;
+    float:left;
+    top:0;
+    left: 60rpx;
+    bottom: 0;
+    right: 0;
+    margin:auto 0;
+    height: 45rpx;
+    width:45rpx;
+  }
+.font{
+  float:left;
+  line-height: 100rpx;
+  margin-left: 150rpx;
+  font-size: 11pt;
+}
+.Image_choose{
+    left: 680rpx;
+    height: 35rpx;
+    width:35rpx;
+}
+.line{
+    position: absolute;
+    height: 1rpx;
+    width:84%;
+    right: 0rpx;
+    background-color: rgb(235, 236, 236);
+}

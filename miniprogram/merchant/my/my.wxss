@@ -1,0 +1,59 @@
+.container{
+  background: rgb(221, 221, 221);
+  height: 1100rpx;
+}
+
+.my-top{
+  height: 200rpx;
+  width: 100%;
+  background:  white;
+  margin-top: 15rpx;
+  display: flex;
+}
+.user-data{
+  margin: 20rpx 0 0 40rpx;
+  display: flex;
+}
+.user-image{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+}
+
+.user-name{
+  font-size: 35rpx;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+
+.my-middle{
+  height: 500rpx;
+  margin-top: 15rpx;
+}
+
+.my-middle-list{
+  height: 100rpx;
+  background: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: red;
+  display: flex;
+}
+
+.my-middle-list-data{
+  margin-top: 25rpx;
+  margin-left: 50rpx;
+  display: flex;
+}
+
+.middle-image{
+  height: 50rpx;
+  width: 50rpx;
+
+}
+
+.middle-text{
+  margin-left: 20rpx;
+}

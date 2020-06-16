@@ -1,0 +1,46 @@
+<view class='container'>
+  <view class='my-top'>
+    <view class='user-data'>
+      <view class='user-image'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='user-name'>
+        <open-data type="userNickName"></open-data>
+      </view>
+    </view>
+  </view>
+
+  <view class='my-middle'>
+    <view class='my-middle-list'>
+    <navigator
+          url="/merchant/my_publish/my_publish"
+          hover-class="navigator-hover">
+      <view class='my-middle-list-data'>
+        <image class='middle-image' src='/images/mine_2.png'></image>
+        <text class='middle-text'>我的发布订单</text>
+      </view>
+    </navigator>
+    </view>
+
+    <view class='my-middle-list'>
+    <navigator
+          url="../../pages/index/index"
+          hover-class="navigator-hover"
+          open-type='switchTab'>
+      <view class='my-middle-list-data'>
+        <image class='middle-image' src='/images/mine_3.png'></image>
+        <text class='middle-text'>跳转客户</text>
+      </view>
+    </navigator>
+    </view>
+  
+  </view>
+
+</view>
+
+
+
+<van-tabbar active="1" bind:change="onChange">
+  <van-tabbar-item icon="home-o">分类发布</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">我的</van-tabbar-item>
+</van-tabbar>

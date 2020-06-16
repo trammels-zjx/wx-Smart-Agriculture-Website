@@ -1,0 +1,146 @@
+page{
+  background-color:rgb(248, 247, 247)
+}
+.card{
+  position: relative;
+  height:250rpx;
+  width:90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  background:white;
+  border-radius: 40rpx;
+  font-size:11pt;
+}
+.choose{
+  position: relative;
+  z-index:999;
+  top:100rpx;
+  left:20rpx;
+  height: 50rpx;
+  width:50rpx;
+}
+.number{
+  position: absolute;
+  top:150rpx;
+  right:20rpx;
+}
+.image{
+   position: absolute;
+   height:200rpx;
+   width:200rpx;
+   top:25rpx;
+   left:80rpx;
+   border-radius: 20rpx;
+   /* background-color:gold; */
+}
+.right{
+   position: absolute;
+   height:200rpx;
+   width:350rpx;
+   top:25rpx;
+   left:300rpx;
+   /* background-color:tomato; */
+}
+.name{
+  float: left;
+  height:50rpx;
+  width:350rpx;
+  font-size:11pt;
+  line-height: 50rpx;
+  margin-top:20rpx;
+  /* background-color: yellow; */
+}
+.describe{
+  float:left;
+  height:50rpx;
+  width:350rpx;
+  font-size: 8pt;
+  line-height: 40rpx;
+  /* background-color: yellow; */
+}
+.price{
+  margin-top:35rpx;
+  float:left;
+  height:50rpx;
+  width:350rpx;
+  font-size: 10pt;
+  color:red;
+  line-height: 50rpx;
+  /* background-color: yellow;  */
+}
+.step{
+position: absolute;
+height:60rpx;
+width:225rpx;
+top:150rpx;
+right:5rpx; 
+/* background-color: greenyellow; */
+}
+.pay{
+  font-size: 10pt;
+  position: fixed;
+  bottom:0;
+  z-index: 1000;
+  border-top: 1rpx solid rgb(248, 247, 247);
+  background-color: white;
+  height:120rpx;
+  width:100%;
+}
+.space{
+  position: relative;
+  height:150rpx;
+  width:100%;
+}
+.choose1{
+  position:absolute;
+  z-index:1001;
+  height: 50rpx;
+  width:50rpx;
+  top:35rpx;
+  left:30rpx;
+}
+.all{
+  position: absolute;
+  height: 120rpx;
+  line-height: 120rpx;
+  left:100rpx;
+  top:0rpx;
+  width:20%;
+  /* background-color: darkblue; */
+}
+.all_pay{
+  position: absolute;
+  height: 120rpx;
+  line-height: 120rpx;
+  right:30%;
+  top:0rpx;
+  /* background-color: darkblue; */
+}
+.submit{
+  position: absolute;
+  top:15rpx;
+  height: 90rpx;
+  width:20%;
+  line-height: 90rpx;
+  right:40rpx;
+  border-radius: 45rpx;
+  text-align: center;
+  background-color:#f6de5a;
+}
+
+.detail{
+     position:relative;
+     top:20rpx;
+     padding-top: 10rpx;
+     left:15%;
+     font-size: 8pt;
+     height:90rpx;
+      line-height: 40rpx;
+     color:#ccc;
+     width:70%;
+     /* background-color: saddlebrown; */
+  }
+
+  .del{
+    margin-left: 500rpx
+  }

@@ -1,0 +1,13 @@
+.list{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.name{
+  font-size: 50rpx;
+  border-bottom: 1px solid red;
+}
+
+.content{
+  margin-top: 5px;
+  font-size: 35rpx;
+}

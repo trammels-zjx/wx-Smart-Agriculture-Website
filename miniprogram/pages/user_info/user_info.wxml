@@ -1,0 +1,24 @@
+ <view class='page'>
+ <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+  ></button>
+    <view class='nickname'>
+      <open-data type="userNickName"></open-data> 
+    </view>
+   <block wx:for="{{list}}" wv:for="{{message}}">
+        <view class='item'  wx:if="{{index!=2}}">
+          <view class='left'>{{list[index].text+" :"}}</view>
+          <input class='right' focus="{{false}}" data-index="{{index}}"                               bindinput='formName' disabled='{{disabled}}' type='text' value="{{message[index].value}}"/>
+        </view>
+        <view class='item'  wx:if="{{index==2}}">
+            <view class='left'>{{list[2].text+" :"}}</view>
+            <input class='right1' focus="{{false}}" data-index="{{2}}"                               bindinput='formName' disabled='{{disabled}}' type='text' value="{{message[2].value}}"/>
+            <image src='/images/loc.png' class='loc' bindtap='site'></image>
+        </view>
+    </block>
+<button class='button' style='background-color:{{color}}' bindtap='data_change'>编辑</button>
+<button class='button' bindtap='submit'>提交</button>
+</view>

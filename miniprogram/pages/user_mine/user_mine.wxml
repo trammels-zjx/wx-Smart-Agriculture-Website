@@ -1,0 +1,24 @@
+
+<!-- 头像栏 -->
+<view class='mine_top'>
+    <button 
+          open-type="getUserInfo" 
+          bindgetuserinfo="onGetUserInfo"
+          class="userinfo-avatar"
+          style="background-image: url({{avatarUrl}})"
+        >
+      </button>
+      <open-data type="userNickName" class='userNickName'></open-data>
+      <view class="sign" bindtap="mine_message">签名 : {{sign}}</view>
+      <image class='Vip_flag' wx:if="{{message.Vip}}" src="/images/mine_5.png"></image>
+</view>
+  
+  
+    <block wx:for="{{a}}">
+      <view class="list" bindtap='url_choose' data-index="{{index}}">
+            <image class='Image' src='{{item.src}}'></image>
+            <view  class="font">{{item.name}}</view>
+            <image class='Image Image_choose' src='/images/mine_4.png'></image>
+      </view>
+      <view class="line"></view>
+    </block>

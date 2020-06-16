@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/index",
+    "merchant/classify/classify",
+    "merchant/publish/publish",
+    "pages/classify_client/classify_client",
+    "pages/farm_classify/farm_classify",
+    "pages/vip/vip",
+    "pages/apply_merchant/apply_merchant",
+    "merchant/publish2.1/publish2.1",
+    "merchant/publish2.2/publish2.2",
+    "merchant/publish2.3/publish2.3",
+    "merchant/publish2.4/publish2.4",
+    "merchant/publish2.5/publish2.5",
+    "merchant/publish2.6/publish2.6",
+    "pages/shopping_cart/shopping_cart",
+    "pages/user_mine/user_mine",
+    "pages/user_info/user_info",
+    "pages/k2/k2",
+    "pages/k2_index/k2_index",
+    "merchant/my/my",
+    "merchant/my_publish/my_publish",
+    "pages/test/test",
+    "pages/search/search",
+    "merchant/publish3/publish3",
+    "merchant/publish4.1/publish4.1",
+    "merchant/publish4.2/publish4.2",
+    "merchant/publish5/publish5"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "智慧农业平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "borderStyle": "black",
+    "selectedColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab_1.png",
+        "selectedIconPath": "images/tab_1s.png"
+      },
+      {
+        "pagePath": "pages/classify_client/classify_client",
+        "text": "分类",
+        "iconPath": "images/tab_4.png",
+        "selectedIconPath": "images/tab_4s.png"
+      },
+      {
+        "pagePath": "pages/shopping_cart/shopping_cart",
+        "text": "购物车",
+        "iconPath": "images/tab_2.png",
+        "selectedIconPath": "images/tab_2s.png"
+      },
+      {
+        "pagePath": "pages/user_mine/user_mine",
+        "text": "我的",
+        "iconPath": "images/tab_3.png",
+        "selectedIconPath": "images/tab_3s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

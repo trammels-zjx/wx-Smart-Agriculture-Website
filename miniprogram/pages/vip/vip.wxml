@@ -1,0 +1,39 @@
+<van-cell-group>
+  <van-cell-group>
+    <van-field
+      value="{{vip_num}}"
+      label="会员编号"
+      disabled
+      border="false"
+      
+    />
+  </van-cell-group>
+
+  <van-field 
+    value="{{vip_name}}"
+    required
+    clearable
+    label="姓名"
+    placeholder="请输入姓名"
+    bind:click-icon="onClickIcon"
+    bind:change="name"
+  />
+
+  <van-field
+    value="{{ site }}"
+    type="textarea"
+    required
+    center
+    autosize
+    clearable
+    label="地址"
+    placeholder="请输入地址"
+    border="{{ false }}"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="primary" bindtap='site'>获取地址</van-button>
+  </van-field>
+
+</van-cell-group>
+
+<button class='btn' bindtap="submit">发布</button> 

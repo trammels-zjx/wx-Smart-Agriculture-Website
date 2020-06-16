@@ -1,0 +1,195 @@
+<!--主盒子-->
+<view class="container">
+
+  <!-- 左侧栏 -->
+  <view class='nav_left'>
+
+    <view class="nav_left_items {{curNav == 1 ? 'active' : ''}}" 
+          bindtap="switchRightTab"  data-id="1">
+      <view>农产品采销</view>
+    </view>
+
+    <view class="nav_left_items {{curNav == 2 ? 'active' : ''}}" 
+          bindtap="switchRightTab"  data-id="2">
+      <view>休闲娱乐</view>
+    </view>
+
+    <view class="nav_left_items {{curNav == 3 ? 'active' : ''}}" 
+          bindtap="switchRightTab" data-id="3">
+      <view>技术帮扶</view>
+    </view>
+
+    <view class="nav_left_items {{curNav == 4 ? 'active' : ''}}" 
+          bindtap="switchRightTab" data-id="4">
+      <view>实践基地</view>
+    </view>
+
+    <view class="nav_left_items {{curNav == 5 ? 'active' : ''}}" 
+          bindtap="switchRightTab" data-id="5">
+      <view>商业合作</view>
+    </view>
+    
+  </view>
+
+  <!-- 右侧栏 -->
+  <view class="nav_right">
+
+    <view wx:if="{{curNav==1}}">
+      <view class="nav_right_items">
+        <navigator
+          url="/merchant/publish/publish?id=水果"
+          hover-class="navigator-hover">
+
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/fruits.jpg"></image>
+        <view>水果</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items" bindtap='gotoliuyan'>
+        <navigator
+          url="/merchant/publish/publish?id=蔬菜"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/vegetables.jpg"></image>
+        <view>蔬菜</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+        <navigator
+          url="/merchant/publish/publish?id=花卉"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/flower.jpg"></image>
+        <view>花卉</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+        <navigator
+          url="/merchant/publish/publish?id=家禽"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/fowl.jpg"></image>
+        <view>家禽</view>
+        </navigator>
+      </view>
+
+      
+    </view>
+
+    <view wx:if="{{curNav==2}}">
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.1/publish2.1"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/green_plants.png"></image>
+        <view>植物认领</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.2/publish2.2"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/pick.jpg"></image>
+        <view>作物采摘预约</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.3/publish2.3"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/travel.jpg"></image>
+        <view>旅游度假</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.4/publish2.4"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/stay.jpg"></image>
+        <view>饮食住宿</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.5/publish2.5"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/DIY.jpg"></image>
+        <view>DIY工艺</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish2.6/publish2.6"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/页面图片/science.jpg"></image>
+        <view>科普中心</view>
+        </navigator>
+      </view>
+      
+    </view>
+
+    <view wx:if="{{curNav==3}}">
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish3/publish3"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/F8C283C359BB9EB185B895F0CD094689.jpg"></image>
+        <view>提供帮扶</view>
+        </navigator>
+      </view>
+
+
+      
+    </view>
+
+
+    <view wx:if="{{curNav==4}}">
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish4.1/publish4.1"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/8FCF974AEC51DCFDA4A20AA74A9D2773.jpg"></image>
+        <view>专业基地</view>
+        </navigator>
+      </view>
+
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish4.2/publish4.2"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/593149C3FB2C555D97853C6F225D1725.jpg"></image>
+        <view>实践平台</view>
+        </navigator>
+      </view>
+
+      
+    </view>
+
+
+    <view wx:if="{{curNav==5}}">
+      <view class="nav_right_items">
+      <navigator
+          url="/merchant/publish5/publish5"
+          hover-class="navigator-hover">
+        <image src="cloud://farming-rhmlt.6661-farming-rhmlt/CEBBDD8F05BD1836F8207A2862DA9052.jpg"></image>
+        <view>发布特色活动</view>
+        </navigator>
+      </view>
+
+      
+      
+    </view>
+
+  </view>
+
+</view>
+
+
+<van-tabbar active="0" bind:change="onChange">
+  <van-tabbar-item icon="home-o">分类发布</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">我的</van-tabbar-item>
+</van-tabbar>
