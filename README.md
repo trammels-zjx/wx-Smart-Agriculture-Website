@@ -1,8 +1,3 @@
----
-typora-copy-images-to: img
-typora-root-url: img
----
-
 # 微信小程序-智慧农业网站
 
 说明：数据库和存储均使用云开发平台
@@ -77,8 +72,8 @@ typora-root-url: img
 
 ### 商家端
 
-![image-20200616131652171](/image-20200616131652171.png)![image-20200616131656903](/image-20200616131656903.png)
+![image-20200616131652171](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131652171.png)![image-20200616131656903](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131656903.png)
 
 ### 客户端
 
-![image-20200616131729968](/image-20200616131729968.png)![image-20200616131732202](/image-20200616131732202.png)![image-20200616131734930](/image-20200616131734930.png)![image-20200616131737694](/image-20200616131737694.png)![image-20200616131740382](/image-20200616131740382.png)![image-20200616131742907](/image-20200616131742907.png)![image-20200616131745813](/image-20200616131745813.png)![image-20200616131748381](/image-20200616131748381.png)![image-20200616131750990](/image-20200616131750990.png)![image-20200616131754078](/image-20200616131754078.png)![image-20200616131756796](/image-20200616131756796.png)![image-20200616131759428](/image-20200616131759428.png)
+![image-20200616131729968](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131729968.png)![image-20200616131732202](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131732202.png)![image-20200616131734930](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131734930.png)![image-20200616131737694](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131737694.png)![image-20200616131740382](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131740382.png)![image-20200616131742907](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131742907.png)![image-20200616131745813](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131745813.png)![image-20200616131748381](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131748381.png)![image-20200616131750990](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131750990.png)![image-20200616131754078](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131754078.png)![image-20200616131756796](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131756796.png)![image-20200616131759428](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131759428.png)
