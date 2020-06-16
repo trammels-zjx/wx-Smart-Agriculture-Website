@@ -39,7 +39,7 @@ typora-root-url: img
 
 ### 布局设计
 
-![image-20200616131634800](/image-20200616131634800.png)
+![image-20200616131634800](https://github.com/trammels-zjx/wx-Smart-Agriculture-Website/blob/master/img/image-20200616131634800.png)
 
 ### 页面功能(商家端和客户端)
 
